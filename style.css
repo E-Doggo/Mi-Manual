@@ -1,15 +1,34 @@
+body
+{
+    background-color: #424242;
+    color: white;
+}
+
 
 thead{
     background-color: #A9E9EB;
-    border: 3px black solid;
+    border: 3px white solid;
+    color: black
+}
+
+a{
+    color:royalblue;
 }
 
 table, td, th{
-    border: 3px black solid;
+    border: 3px white solid;
     margin-left: auto;
     margin-right: auto;
 }
 
 .italic{
     font-style: italic;
+}
+
+#autor{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: auto;
 }
