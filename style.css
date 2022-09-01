@@ -15,20 +15,24 @@ a{
     color:royalblue;
 }
 
-table, td, th{
-    border: 3px white solid;
+table, td,th{
+    border: 2px white solid;
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
 }
+
+.element{
+    text-align: center;
+    width: 10%;
+}
+
 
 .italic{
     font-style: italic;
 }
 
 #autor{
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: center;
-    width: auto;
 }
