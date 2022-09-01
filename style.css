@@ -6,8 +6,7 @@ body
 
 
 thead{
-    background-color: #A9E9EB;
-    border: 3px white solid;
+    background-color: #A9E9EB;;
     color: black
 }
 
@@ -15,7 +14,7 @@ a{
     color:royalblue;
 }
 
-table, td,th{
+table, td, th{
     border: 2px white solid;
     margin-left: auto;
     margin-right: auto;
