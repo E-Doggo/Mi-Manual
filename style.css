@@ -14,6 +14,11 @@ a{
     color:royalblue;
 }
 
+td
+{
+    height: 2em; 
+}
+
 table, td, th{
     border: 2px white solid;
     margin-left: auto;
@@ -34,4 +39,8 @@ table, td, th{
 #autor{
     display: flex;
     justify-content: center;
+}
+
+.subtitle{
+    text-indent: 2.5%;
 }
