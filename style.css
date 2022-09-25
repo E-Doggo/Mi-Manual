@@ -1,39 +1,104 @@
+*{
+    font-family: verdana;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
 body
 {
-    background-color: #424242;
+    background-color: hsla(72, 0%, 2%, 0.92);
     color: white;
 }
 
-
-thead{
-    background-color: #A9E9EB;;
-    color: black
+#page_select{
+    display: flex;    
+    background-color: hsla(196, 75%, 65%, 0.75);
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
 }
 
-a{
-    color:royalblue;
+#links{
+    display: flex;
+    margin: 3em 3em 3em ;
 }
 
-td
+#title
 {
-    height: 2em; 
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
-table, td, th{
+#main_title
+{
+    font-size: 45px;
+}
+
+
+.link{
+    text-decoration: none;
+    padding: 1em 1em 1em 1em;
+}
+
+.Redirect_Link{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+#pages{
+    margin: auto;
+    width: 50%;
+    border: 3px none none;
+    padding: 10px;
+}
+
+.page_Text
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
     border: 2px white solid;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.element{
-    text-align: center;
-    width: 10%;
+.page_Text:hover{
+    border: 5px white solid;
+}
+
+.page_Text > .Redirect_Link{
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+
+#imgHTML{
+    float: right;
+    width:160px;
+    height:135px;
+    margin-left:10px;
+}
+
+#imgCSS{
+    float: left;
+    width:115px;
+    height:130px;
+    margin-right:20px;
 }
 
 
-.italic{
-    font-style: italic;
+.page_Text > p {
+    text-align: justify;
 }
 
 #autor{
@@ -41,6 +106,4 @@ table, td, th{
     justify-content: center;
 }
 
-.subtitle{
-    text-indent: 2.5%;
-}
+

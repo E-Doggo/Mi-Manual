@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        
+        <header>
+            <h1>Colores</h1>
+        </header>
+        <p>Existen cuatro metodos para darle color a un objeto: </p>
+        <div>
+            <ol>
+                <li><h3>Nombres predeterminados</h3></li>
+            </ol>
+            <p>Podemos seleccionar el color que se aplicara ingresando el nombre de un color de una lista predeterminada</p>
+            <pre>
+                <code>
+                p{
+                    color: red;
+                }                    
+                </code>
+            </pre>
+        </div>
+        <div> 
+            <ol start="2">
+                <li><h3>Modelo RGB</h3></li>
+            </ol>
+            <p>Podemos seleccionar un color mezclando valores de los 3 elementos primarios: Rojo, Verde y Azul</p>
+            <code>rgb(red, green, blue)</code>
+            <ul>
+                <li>red: Especifica la intensidad del color rojo [0 - 255]</li>
+                <li>green: Especifica la intensidad del color verde [0 - 255]</li>
+                <li>blue: Especifica la intensidad del color azul [0 - 255]</li>
+            </ul>
+            <p>Podemos especificar la opacidad del color con el siguiente codigo:</p>
+            <code>rgba(red, green, blue, alpha)</code>
+            <p>alpha puede tomar valores [0 - 1] que le diran si el color sera transparente u opaco respectivamente.</p>
+        </div>
+        <div>
+            <ol start="3">
+                <li><h3>Valor Hexadecimal</h3></li>
+            </ol>
+            <p>Podemos seleccionar un color llamandolo segun su valor hexadecimal</p>
+            <pre>
+                <code>
+                p{
+                    color: #c4ff4d;
+                }                    
+                </code>
+            </pre>
+        </div>
+        <div>
+            <ol start="4">
+                <li><h3>Modelo HSL</h3></li>
+            </ol>
+            <p>Este modelo nos permite seleccionar un color segun su tono, saturacion, iluminacion</p>
+            <code>hsl(hue, saturation, lightness)</code>
+            <ul>
+                <li>tono: Valor que le dara el color, puede tomar valores de [0 - 360]</li>
+                <li>saturacion: Determina que tan fuerte sera el color [0% - 100%]</li>
+                <li>blue: Especifica la claridad u oscuridad del color [0% - 100%]</li>
+            </ul>
+            <p>Al igual que el modelo RGB podemos determinar la transparencia del color añadiendo el atributo alpha</p>
+            <code>hsla(hue, saturation, lightness, alpha)</code>
+        </div>
+    </div>
+
+
+    <!---->
+    <div>
+        <h1>Selectores</h1>
+        <table>
+            <caption>Tipos de selectores</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Selector</th>
+                    <th scope="col">Uso</th>
+                    <th scope="col">Documentacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Universal</td>
+                    <td>Aplica un estilo a todos los elementos del html</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>De tipo</td>
+                    <td>Selecciona los objetos usando el nombre de los elementos</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>De clase</td>
+                    <td>Selecciona los objetos que estan agrupados en una clase</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>De ID</td>
+                    <td>Selecciona los objetos segun el su atributo ID</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>De atributo</td>
+                    <td>Selecciona los objetos segun la presencia o la falta de un valor en sus atributos</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pseudo-clases</td>
+                    <td>Selecciona los objetos segun la presencia o la falta de un valor en sus atributos</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Documentacion</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!---->
+
+    <div>
+        <h1>Pseudo-clases</h1>
+        <p>Las pseudo clases</p>
+        <table>
+            <caption>Lista de Pseudo-clases</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Keyword</th>
+                    <th scope="col">Utilidad</th>
+                    <th scope="col">Documentacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>:active</td>
+                    <td>Representa un elemento que sera activa con el click del mouse</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:any-link</td>
+                    <td>Representa un elemento que actua como un hiperlink</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:autofill</td>
+                    <td>Cuando se utiliza con un elemento &lt;input&gt; el navegador llenara el espacio con texto recomendado</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:autofill">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:disabled</td>
+                    <td>Representa un elemento que estara desactivo en la pagina, no se podra interactuar con ella</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:enabled</td>
+                    <td>Representa un elemento que estara activado en la pagina, se podra interactuar con ella</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:empty</td>
+                    <td>Identifica si un elemento no tiene hijos</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:empty">Documentacion</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!---->
+
+    <div>
+        <h1>Pseudo-elemementos</h1>
+        <p>Los pseudo elementos</p>
+        <table>
+            <caption>Lista de Pseudo-elementos</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Keyword</th>
+                    <th scope="col">Utilidad</th>
+                    <th scope="col">Documentacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>::after</td>
+                    <td>Crea un pseudo-elemento que sera el ultimo hijo del elemento seleccionado</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>::before</td>
+                    <td>Crea un pseudo-elemento que sera el primer hijo del elemento seleccionado</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>::first-letter</td>
+                    <td>Aplica un estilo a la primera letra de un texto</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>::first-line</td>
+                    <td>Aplica un estilo a la primera linea de un elemento de bloque</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>::placeholder</td>
+                    <td>Representa un placeholder dentro de un  &lt;input &gt; o un &lt;textarea&gt;</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>::selection</td>
+                    <td>Aplica un estilo a una parte del documento que fue seleccionada por el usuario</td>
+                    <td>
+                        <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

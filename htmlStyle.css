@@ -1,0 +1,56 @@
+*{
+    font-family: verdana;
+}
+
+
+body
+{
+    background-color: #424242;
+    color: white;
+}
+
+#main_title{
+    text-align: center;
+    background-color: hsla(196, 75%, 65%, 0.75);
+    /*font-family: sans-serif ;*/
+}
+
+thead{
+    background-color: hsla(196, 75%, 65%, 0.75);
+    color: black
+}
+
+a{
+    color:royalblue;
+}
+
+td
+{
+    height: 2em;
+}
+
+table, td, th{
+    border: 2px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.element{
+    text-align: center;
+    width: 10%;
+}
+
+
+.italic{
+    font-style: italic;
+}
+
+#autor{
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle{
+    text-indent: 2.5%;
+}
