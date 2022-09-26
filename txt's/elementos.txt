@@ -1,5 +1,5 @@
 <h1>Pseudo-elemementos</h1>
-<p>Los pseudo elementos</p>
+<p>Los pseudo elementos son palabras clave que nos permiten estilizar una parte especifica de un elemento.</p>
 <table>
     <caption>Lista de Pseudo-elementos</caption>
     <thead>

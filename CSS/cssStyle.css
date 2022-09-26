@@ -76,7 +76,7 @@ body
 }
 
 html,body { 
-    height:115%;
+    height:125%;
 }
 
 .code{
@@ -134,4 +134,10 @@ tr:hover:not(tr[class= "tablehead"]){
     background-color: hsla(48, 80%, 60%, 1);
     color: white;
     cursor: pointer;
+}
+
+
+#referencias{
+    display: inline-block;
+    padding: 2em 2em 2em 2em;
 }

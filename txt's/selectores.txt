@@ -1,5 +1,6 @@
 <h1>Selectores</h1>
 <table>
+    <p>Los selectores definiran a los elementos que deberán seguir las reglas especificadas en el archivos .css</p>
     <caption>Tipos de selectores</caption>
     <thead>
         <tr>

@@ -1,5 +1,5 @@
 <h1>Pseudo-clases</h1>
-<p>Las pseudo clases</p>
+<p>Las pseudo-clases son palabras clave añadidas a un selector que especifica un estado especial del elemento seleccionado</p>
 <table>
 <caption>Lista de Pseudo-clases</caption>
 <thead>
