@@ -79,3 +79,13 @@ body
     width: 75%;
     padding: 8em 5em 5em 5em;
 }
+
+.contact:hover{
+    font-size: 35px;
+}
+
+.contact:hover > .linkImg{
+    width:  250px;
+    height: 250px;
+    object-fit: contain;
+}
