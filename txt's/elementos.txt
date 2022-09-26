@@ -3,7 +3,7 @@
 <table>
     <caption>Lista de Pseudo-elementos</caption>
     <thead>
-        <tr>
+        <tr class= "tablehead">
             <th scope="col">Keyword</th>
             <th scope="col">Utilidad</th>
             <th scope="col">Documentacion</th>

@@ -3,7 +3,7 @@
     <p>Los selectores definiran a los elementos que deberán seguir las reglas especificadas en el archivos .css</p>
     <caption>Tipos de selectores</caption>
     <thead>
-        <tr>
+        <tr class= "tablehead">
             <th scope="col">Selector</th>
             <th scope="col">Uso</th>
             <th scope="col">Documentacion</th>
