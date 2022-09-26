@@ -92,18 +92,27 @@ body
 
 #imgHTML{
     float: right;
-    width:160px;
-    height:135px;
+   
     margin-left:10px;
 }
 
 #imgCSS{
     float: left;
-    width:115px;
-    height:130px;
+
     margin-right:20px;
 }
 
+.image{
+    width:160px;
+    height:135px;
+    object-fit: contain;
+}
+
+.page_Text:hover > p> .image{
+    width:170px;
+    height:140px;
+    object-fit: contain;
+}
 
 .page_Text > p {
     text-align: justify;

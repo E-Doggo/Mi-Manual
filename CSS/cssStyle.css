@@ -56,6 +56,8 @@ body
 #list{
     display: flex;
     flex-direction: column;
+    align-content: center;
+    flex-direction: column;
     width: 10%;
     height: 100%;
     padding-left: 15px;
@@ -71,12 +73,14 @@ body
 }
 
 #toChange{
-    display: inline-block;
-    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0em 2em 0em 2em;
 }
 
 html,body { 
-    height:125%;
+    height:130%;
 }
 
 .code{
@@ -138,6 +142,6 @@ tr:hover:not(tr[class= "tablehead"]){
 
 
 #referencias{
-    display: inline-block;
+    display: flex;
     padding: 2em 2em 2em 2em;
 }
