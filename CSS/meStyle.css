@@ -60,6 +60,8 @@ body
     width:  200px;
     height: 200px;
     object-fit: contain;
+    transition: .3s ease-in-out, .3s ease-in-out;
+
 }
 
 .contact{
@@ -68,6 +70,7 @@ body
     font-size: 30px;
     padding: 10px 10px 10px 10px;
     text-align: center;
+    transition: color .3s ease-in-out, .3s ease-in-out;
 }
 
 #contacts{
@@ -82,10 +85,16 @@ body
 
 .contact:hover{
     font-size: 35px;
+    box-shadow:  10px 10px 5px white;
+    transition: .3s ease-in-out, .3s ease-in-out;
+
 }
 
 .contact:hover > .linkImg{
     width:  250px;
     height: 250px;
     object-fit: contain;
+    transition: .3s ease-in-out, .3s ease-in-out;
+
 }
+
