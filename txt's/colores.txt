@@ -1,0 +1,51 @@
+<header>
+    <h1>Colores</h1>
+</header>
+<p>Existen cuatro metodos para darle color a un objeto: </p>
+<div>
+    <h3>1. Nombres predeterminados</h3>
+    <p>Podemos seleccionar el color que se aplicara ingresando el nombre de un color de una lista predeterminada</p>
+    <pre>
+        <code class = "code">
+        p{
+            color: red;
+        }                    
+        </code>
+    </pre>
+</div>
+<div> 
+    <h3>2. Modelo RGB</h3>
+    <p>Podemos seleccionar un color mezclando valores de los 3 elementos primarios: Rojo, Verde y Azul</p>
+    <code class = "code">rgb(red, green, blue)</code>
+    <ul class = lista>
+        <li>red: Especifica la intensidad del color rojo [0 - 255]</li>
+        <li>green: Especifica la intensidad del color verde [0 - 255]</li>
+        <li>blue: Especifica la intensidad del color azul [0 - 255]</li>
+    </ul>
+    <p>Podemos especificar la opacidad del color con el siguiente codigo:</p>
+    <code class = "code">rgba(red, green, blue, alpha)</code>
+    <p>alpha puede tomar valores [0 - 1] que le diran si el color sera transparente u opaco respectivamente.</p>
+</div>
+<div>
+  <h3>3. Valor Hexadecimal</h3>
+    <p>Podemos seleccionar un color llamandolo segun su valor hexadecimal</p>
+    <pre>
+        <code class = "code">
+        p{
+            color: #c4ff4d;
+        }                    
+        </code>
+    </pre>
+</div>
+<div>
+    <h3>4. Modelo HSL</h3>
+    <p>Este modelo nos permite seleccionar un color segun su tono, saturacion, iluminacion</p>
+    <code class = "code">hsl(hue, saturation, lightness)</code>
+    <ul class = lista>
+        <li>tono: Valor que le dara el color, puede tomar valores de [0 - 360]</li>
+        <li>saturacion: Determina que tan fuerte sera el color [0% - 100%]</li>
+        <li>blue: Especifica la claridad u oscuridad del color [0% - 100%]</li>
+    </ul>
+    <p>Al igual que el modelo RGB podemos determinar la transparencia del color añadiendo el atributo alpha</p>
+    <code class = "code">hsla(hue, saturation, lightness, alpha)</code>
+</div>

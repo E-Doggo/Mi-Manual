@@ -27,7 +27,6 @@ body
 
 #links{
     display: flex;
-    margin: 3em 3em 3em ;
 }
 
 #title
@@ -44,7 +43,16 @@ body
 
 .link{
     text-decoration: none;
-    padding: 1em 1em 1em 1em;
+    padding: 5em 1em 5em 1em;
+   
+}
+
+.link:hover{
+    background-color: white;
+}
+
+.link:hover > .Redirect_Link{
+    color: black
 }
 
 .Redirect_Link{
@@ -72,7 +80,7 @@ body
 }
 
 .page_Text:hover{
-    border: 5px white solid;
+    border: 4px white solid;
 }
 
 .page_Text > .Redirect_Link{
@@ -105,5 +113,3 @@ body
     display: flex;
     justify-content: center;
 }
-
-

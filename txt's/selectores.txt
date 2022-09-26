@@ -1,0 +1,55 @@
+<h1>Selectores</h1>
+<table>
+    <caption>Tipos de selectores</caption>
+    <thead>
+        <tr>
+            <th scope="col">Selector</th>
+            <th scope="col">Uso</th>
+            <th scope="col">Documentacion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class = "element" >Universal</td>
+            <td>Aplica un estilo a todos los elementos del html</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >De tipo</td>
+            <td>Selecciona los objetos usando el nombre de los elementos</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >De clase</td>
+            <td>Selecciona los objetos que estan agrupados en una clase</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >De ID</td>
+            <td>Selecciona los objetos segun el su atributo ID</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >De atributo</td>
+            <td>Selecciona los objetos segun la presencia o la falta de un valor en sus atributos</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >Pseudo-clases</td>
+            <td>Selecciona los objetos segun la presencia o la falta de un valor en sus atributos</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Documentacion</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

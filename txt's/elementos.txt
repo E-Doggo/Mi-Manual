@@ -1,0 +1,56 @@
+<h1>Pseudo-elemementos</h1>
+<p>Los pseudo elementos</p>
+<table>
+    <caption>Lista de Pseudo-elementos</caption>
+    <thead>
+        <tr>
+            <th scope="col">Keyword</th>
+            <th scope="col">Utilidad</th>
+            <th scope="col">Documentacion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class = "element" >::after</td>
+            <td>Crea un pseudo-elemento que sera el ultimo hijo del elemento seleccionado</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >::before</td>
+            <td>Crea un pseudo-elemento que sera el primer hijo del elemento seleccionado</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >::first-letter</td>
+            <td>Aplica un estilo a la primera letra de un texto</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >::first-line</td>
+            <td>Aplica un estilo a la primera linea de un elemento de bloque</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >::placeholder</td>
+            <td>Representa un placeholder dentro de un  &lt;input &gt; o un &lt;textarea&gt;</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+            </td>
+        </tr>
+        <tr>
+            <td class = "element" >::selection</td>
+            <td>Aplica un estilo a una parte del documento que fue seleccionada por el usuario</td>
+            <td>
+                <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,56 @@
+<h1>Pseudo-clases</h1>
+<p>Las pseudo clases</p>
+<table>
+<caption>Lista de Pseudo-clases</caption>
+<thead>
+    <tr>
+        <th scope="col">Keyword</th>
+        <th scope="col">Utilidad</th>
+        <th scope="col">Documentacion</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td class = "element" >:active</td>
+        <td>Representa un elemento que sera activa con el click del mouse</td>
+        <td>
+            <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">Documentacion</a>
+        </td>
+    </tr>
+    <tr>
+        <td class = "element" >:any-link</td>
+        <td>Representa un elemento que actua como un hiperlink</td>
+        <td>
+            <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link">Documentacion</a>
+        </td>
+    </tr>
+    <tr>
+        <td class = "element" >:autofill</td>
+        <td>Cuando se utiliza con un elemento &lt;input&gt; el navegador llenara el espacio con texto recomendado</td>
+        <td>
+            <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:autofill">Documentacion</a>
+        </td>
+    </tr>
+    <tr>
+        <td class = "element" >:disabled</td>
+        <td>Representa un elemento que estara desactivo en la pagina, no se podra interactuar con ella</td>
+        <td>
+            <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled">Documentacion</a>
+        </td>
+    </tr>
+    <tr>
+        <td class = "element" >:enabled</td>
+        <td>Representa un elemento que estara activado en la pagina, se podra interactuar con ella</td>
+        <td>
+            <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled">Documentacion</a>
+        </td>
+    </tr>
+    <tr>
+        <td class = "element" >:empty</td>
+        <td>Identifica si un elemento no tiene hijos</td>
+        <td>
+            <a id = "link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:empty">Documentacion</a>
+        </td>
+    </tr>
+</tbody>
+</table>

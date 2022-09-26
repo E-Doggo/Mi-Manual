@@ -1,0 +1,96 @@
+*{
+    font-family: verdana;
+}
+
+body
+{
+    background-color: hsla(72, 0%, 2%, 0.92);
+    color: white;
+}
+
+#page_select{
+    display: flex;    
+    background-color: hsla(196, 75%, 65%, 0.75);
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+} 
+
+#links{
+    display: flex;
+}
+
+#title
+{
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#main_title
+{
+    font-size: 45px;
+}
+
+
+.link{
+    text-decoration: none;
+    padding: 5em 1em 5em 1em;
+   
+}
+
+.link:hover{
+    background-color: white;
+}
+
+.link:hover > .Redirect_Link{
+    color: black
+}
+
+.Redirect_Link{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+thead{
+    background-color:hsla(196, 75%, 65%, 0.75);
+}
+
+td
+{
+    height: 2em;
+}
+
+table, td, th{
+    border: 2px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.element{
+    text-align: center;
+    width: 10%;
+}
+
+
+.italic{
+    font-style: italic;
+}
+
+#autor{
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle{
+    text-indent: 2.5%;
+}
+
+td > a {
+    color: royalblue;
+}
+
+tr:hover:not(tr[class= "tablehead"]){
+    background-color: hsla(0, 0%, 30%, 1);
+}
