@@ -1,0 +1,227 @@
+*{
+    font-family: verdana;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+body
+{
+    background-color: hsla(72, 0%, 2%, 0.92);
+    color: white;
+}
+
+#page_select{
+    display: flex;    
+    background-color: hsla(196, 75%, 65%, 0.75);
+    align-items: center;
+    justify-content: space-around;
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+}
+
+#title
+{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#main_title
+{
+    font-size: 45px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px 0px 15px
+}
+
+#home{
+    float: left;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 0px 10px 0px 10px;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#title:hover > header> #main_title > #home{
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.link{
+    text-decoration: none;
+    padding: 5em 1em 5em 1em;
+   
+}
+
+.link:hover{
+    background-color: white;
+}
+
+.link:hover > .Redirect_Link{
+    color: black
+}
+
+.Redirect_Link{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+.titles{
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.titles>ul{
+    display: inline-block;
+}
+
+
+.flex_elem{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+    width: 5em;
+    color: white;
+    font-size: x-large;
+}
+
+.flex-div{
+    display: flex;
+    background-color: hsla(0, 0%, 40%, 1);
+    padding: 2em 0em 2em 0em;
+}
+
+#flex_div1{
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#flex_div2{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#flex_div3{
+
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#flex_div4{
+
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#flex_div9{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+#flex_div10{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+#flex_div11{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#flex_div12{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#flex_div13{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#flex_div14{
+    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+#flex_div16{
+
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#flex_div22{
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+#flex_div23{
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+
+}
