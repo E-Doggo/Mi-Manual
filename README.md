@@ -1,3 +1,3 @@
 # Mi-Manual
 
-https://e-doggo.github.io/Mi-Manual/HTML/cssGuide.html
+https://e-doggo.github.io/Mi-Manual/index.html
